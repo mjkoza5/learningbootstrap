@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Noob 1</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div>
+      <nav class="list-inline text-center navbar navbar-inverse">
+        <ul class="list-unstyled list-inline">
+          <li><a href="index.html" class="text-"><u>Home</u></a></li>
+          <li><a href="buttons.html"><u>Bottons</u></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container"> <!--"container" class is very important. Pushes text to middle a bit and makes it responsive as page size changes-->
+
+      <!--TOPOGRAPHY-->
+      <h1 class="page-header">Hello, world! <small>My Bootstrap Learning Journey</small></h1>   <!--"page-header" class gives the text extra padding and little border (although border looks like underline)-->
+
+      <p class="lead"><mark>This paragraph has a <strong>"lead"</strong> class, which makes the text in this paragraph a bit bigger.</mark> <!--"lead" class makes this paragraph bigger than the one below-->
+        The Paragraph below is without a "lead" class. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Aperiam, reprehenderit, mollitia! Necessitatibus tenetur mollitia a iste natus sint,
+        quisquam labore est architecto nam unde voluptatibus optio facere, ipsam, harum placeat.</p>
+
+      <p><mark>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</mark> Ad pariatur   <!--<mark> tag highlights the text-->
+      aspernatur sunt quos minima qui <del>eligendi inventore,</del> ex distinctio,   <!--<del> tag crossed out text-->
+      perferendis sint sapiente quaerat enim temporibus. Mollitia, non.
+      Suscipit officia, cumque.</p>
+
+      <hr>
+
+
+      <!--ALIGNMENT-->
+      <h3 class="text-center"><u>Alignment</u></h3>
+      <p class="text-left">Left Align text</p>
+      <p class="text-center">Center Align text</p>
+      <p class="text-right">Right Align text</p>
+      <p class="text-justify">Justified Text</p>
+      <p class="text-nowrap">No Wrap Text</p>
+
+      <br>
+
+      <h3 class="text-center"><u>Alignment & Transformation</u></h3>
+      <!--ALIGNMENT & Transformation-->
+      <p class="text-left text-lowercase">Left Align Text & lowercase</p>
+      <p class="text-center text-uppercase">Center Align Text & uppercase</p>
+      <p class="text-right text-capitalize">Right Align and capitalize Text</p>  <!--(capitalizes 1st letter of every word)</p>-->
+
+      <br>
+
+      <!--Quick Floats-->
+      <h3 class="text-center"><u>Quick Floats</u></h3>
+      <div class="pull-right">Div floated to right</div>
+      <div class="pull-left">Div floated to left</div>
+
+      <!--Clear Float:-->
+      <div class="clearfix"></div>   <!--This moves the <hr> (below) to it's correct spot. With floating, you have to clear it so the things below don't also aquire the "float" attribute-->
+
+      <hr>
+
+      <!--Block Quotes-->
+      <h3 class="text-center"><u>Blockquotes</u></h3>
+      <blockquote class="blockquote">
+        <p><mark>Syntax: < blockquote class="blockquote" ></mark>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam porro eum quaerat fugit cupiditate numquam
+        voluptatibus inventore! Deleniti, quas deserunt, omnis facere nihil facilis vitae est ipsa aliquam, tenetur corporis.</p>
+        <footer>Quote by <cite title="Johny Doe">Johny Doe</cite></footer>
+      </blockquote>
+
+      <blockquote class="blockquote-reverse">
+        <p>To have the quote on the other side (towards this side -->). <mark>Syntax: < blockquote class="blockquote-reverse" ></mark></p>
+        <footer><cite title="Johny Doe">Johny Doe</cite></footer>
+      </blockquote>
+
+      <hr>
+
+      <!--Lists-->
+      <h3 class="text-center"><u>Lists</u></h3>
+
+      <h5 class="text-left"><u> < ul class="list-unstyled"> </ ul> </u></h5>
+      <ul class="list-unstyled">
+        <li>Item one</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+      </ul>
+
+
+      <h5 class="text-left"><u> < ul class="list-inline"> </ ul> </u></h5>
+      <ul class="list-inline">
+        <li>Item one</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+      </ul>
+
+
+      <!--Code-->
+      <code>&lt;h1&gt;Heading Tag&lt;/h1&gt;</code>
+      <code>&lt;ul&gt;Unordered List&lt;/ul&gt;</code>
+
+      <br>
+
+      <div style="height:50px"></div>
+
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
