@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Buttons Noob 1</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <div>
+      <nav class="list-inline text-center navbar navbar-inverse">
+        <ul class="list-unstyled list-inline">
+          <li><a href="index.html"><u>Home</u></li>
+          <li><a href="Basics.html" class="text-"><u>Basics</u></a></li>
+          <li><a href="buttons.html" class="text-"><u>Buttons</u></a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!--Forms-->
+    <div class="container">
+      <h1 class="text-center">Forms</h1>
+      <p class="text-center">This page displays forms. <br>
+        The one below looks like a typical contact page. Please feel free to fill out the info below.</p>
+      <hr>
+      <form>
+
+        <!--text-->
+        <div class="form-group text-left">
+          <label>Name:</label>
+          <input type="text" class="form-control" placeholder="Add Name">
+        </div>
+
+        <!--email-->
+        <div class="form-group text-left">
+          <label>E-mail:</label>
+          <input type="email" class="form-control" placeholder="Add E-Mail">
+        </div>
+
+        <!--picklist-->
+        <div class="form-group text-left">
+          <label>Region:</label>
+          <select class="form-control">
+            <option value="East Coast">East Coast</option>
+            <option value="West Coast">West Coast</option>
+            <option value="Midwest">Midwest</option>
+            <option value="South">South</option>
+            <option value="Hawaii">Hawaii</option>
+            <option value="Alaska">Alaska</option>
+        </div>
+
+
+        <!--File attachments-->
+        <div class="form-group text-left">
+          
+          <label>Upload File:</label>
+          <input type="file">
+          <p class="help-block">png, jpeg, and tiff File types only</p>
+        </div>
+
+        <!--Checkbox-->
+        <div class="checkbox">
+          <label>
+            <input type="checkbox"> This page is amazing. I Understand the Term and Conditions.
+          </label>
+        </div>
+
+      </form>
+      <button class="btn btn-default btn-md"/>Submit</button>
+    </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
